@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esier</title>
+    <title>Eiser</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
+    <!-- nav bar -->
     <header>
         <!-- uppper nav -->
         <div class="upper-nav">
-            <div class="upper-nav-content">
+            <div class="upper-nav-content1">
                 <p>PHONE: +01 256 25 235</p>
-                <p> |</p>
+                <p>|</p>
                 <p>EMAIL: INFO@EISER.COM</p>
             </div>
-            <div class="upper-nav-content">
+            <div class="upper-nav-content2">
                <p>Gift card</p>
                <p>|</p>
                <p>Track order</p>
@@ -34,36 +35,43 @@
                </div>
             </div>
             <div class="nav-menu">
-               <ul>
-                    <li><a href="#">Home</a></li>
-                    <li id="menu-products">
-                      <a href="#">shop</a>
-                      <ul id="dropdown-products">
-                        <li id="dropdown"><a href="#">Shop category</a></li>
-                        <li id="dropdown"><a href="#">products details</a></li>
-                        <li id="dropdown"><a href="#">Product checkout</a></li>
-                        <li id="dropdown"><a href="#">shopping cart</a></li>
-                      </ul>
-                    </li>
+                <div class="dropdown">
+                    <button class="dropbtn">Home</button>
                     
+                </div>
+               
+                    <div class="dropdown">
+                        <button class="dropbtn">shop</button>
+                        <div class="dropdown-content">
+                          <a href="shopcategory.html">Shop category</a>
+                          <a href="productdetail.html">product details</a>
+                          <a href="productcheckout.html">product checkout</a>
+                          <a href="shoppingcart.html">shopping cart</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Blog</button>
+                        <div class="dropdown-content">
+                          <a href="blog.html">blog</a>
+                          <a href="blogdetails.html">blog details</a>
+                          
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">pages</button>
+                        <div class="dropdown-content">
+                          <a href="#">Tracking</a>
+                          <a href="#">Elements</a>
+                         
+                        </div>
+                    </div>
 
-                    <li id="menu-products">
-                        <a href="#">Blog</a>
-                        <ul id="dropdown-products">
-                          <li id="dropdown"><a href="#">Blog</a></li>
-                          <li id="dropdown"><a href="#">Blog details</a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-products">
-                        <a href="#">pages</a>
-                        <ul id="dropdown-products">
-                          <li id="dropdown"><a href="#">Tracking</a></li>
-                          <li id="dropdown"><a href="#">Elements</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">contact</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Contact</button>
+                        
+                    </div>
                    
-                  </ul>
+                   
             </div>
             <div class="nav-icon">
                 <div class="nav-inner-icons">
@@ -76,12 +84,79 @@
 
             </div>
         </div>
-
-
-
-
-
     </header>
+ <!-- ender header -->
+  <!-- ended nav bar -->
+  <!-- started banner -->
+    <section>
+        <div class="bg-banner">
+         <div class="inner-bg-banner">
+            <div class="bg-banner-content">
+                <p>MEN COLLECTION</p>
+                <h1><span>Show</span> Your
+                    Personal <span>Style</span></h1>
+                <p>Fowl saw dry which a above together place.</p>    
+            </div>
+            <div class="banner-btn">
+                <button>view collections</button>
+            </div>
+
+         </div>
+        </div>
+    </section>
+
+
+    <!-- section -->
+     <div class="container">
+        <div class="inner-cont">
+            <div class="cont-card">
+                <div class="">
+                 <i class="fa-solid fa-money-bill"></i>
+                </div>
+                <div class="">
+                    <p>money back gurantee</p>
+                </div>
+                <div class="">
+                    <p>shall open divide a one</p>
+                </div>
+            </div>
+            <div class="cont-card">
+                <div>
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <div>
+                    <p>free delivery</p>
+                </div>
+                <div>
+                    <p>shall open divide a one</p>
+                </div>
+            </div>
+            <div class="cont-card">
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div>
+                    <p>always support</p>
+                </div>
+                <div>
+                    <p>shall open divide a one</p>
+                </div>
+            </div>
+            <div class="cont-card">
+                <div>
+                    <i class="fa-brands fa-hive"></i>
+                </div>
+                <div>
+                    <p>secure payment</p>
+                </div>
+                <div>
+                    <p>shall open divide a one</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+    
     
 </body>
 </html>
