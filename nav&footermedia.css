@@ -1,0 +1,18 @@
+@media screen and (max-width: 990px) {
+    /* footer */
+    
+    .footerrow{
+        flex-wrap: wrap;
+        justify-content: start;
+        height: auto;
+        /* border:1px green; */
+    }
+    .down-footer{
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        /* padding: 10px ; */
+    }
+
+
+
+}
