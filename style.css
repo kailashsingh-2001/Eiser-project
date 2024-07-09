@@ -1,9 +1,9 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    font-weight: normal;
+   
 }
 
 
@@ -191,6 +191,9 @@ body{
     border: 1px solid black;
     
 
+}
+.main_title{
+    display: none;
 }
 
 
