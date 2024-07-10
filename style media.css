@@ -24,12 +24,23 @@
     /* new product */
     .collection-cont{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .collectionrow{
+        width: 80%;
+    }
+
+    .newproduct-col{
+        width: 100%;
+        
+    }
+    .newproduct-siderow{
+        width: 80%;
     }
 
     /* inspried product */
-    /* .inspired-row{
-        flex-wrap: wrap;
-    } */
+    
     .inspired-card{
      width: 250px;
      /* height: 400px; */
@@ -38,6 +49,11 @@
      .inspried-img{
         height: 300px;
      }
+     /* blog */
+     .man-blog{
+        flex-wrap: wrap;
+     }
+
     }
 
 
@@ -67,6 +83,14 @@
     .inspried-img{
         height:  500px;;
     }
+
+    /* blog */
+    .man-blog{
+        flex-wrap: wrap;
+     }
+     .single-blog{
+        width: 500px;
+     }
 
 
 
