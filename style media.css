@@ -1,0 +1,80 @@
+@media only screen and (max-width:990px){
+    /* section money cart */
+    .inner-cont{
+        flex-wrap: wrap;
+
+    }
+    .cont-card{
+        width: 300px;
+    }
+   
+
+
+
+
+    /* featured product */
+    .feature-card-col{
+        flex-wrap:wrap;
+    };
+
+    /* offer area */
+    .offer-area{
+        background-image: none;
+    }
+    /* new product */
+    .collection-cont{
+        flex-direction: column;
+    }
+
+    /* inspried product */
+    /* .inspired-row{
+        flex-wrap: wrap;
+    } */
+    .inspired-card{
+     width: 250px;
+     /* height: 400px; */
+
+     }
+     .inspried-img{
+        height: 300px;
+     }
+    }
+
+
+@media only screen and (max-width:770px){
+/* section money card */
+    .cont-card{
+        width: 450px;
+    }
+    /* featured product */
+    .single-product{
+        width: 500px;
+        /* height: 600px; */
+    }
+    .product-img{
+        height:  600px;;
+    }
+
+    /* new product */
+
+
+
+
+    /* inspried product */
+    .inspired-card{
+        width: 500px;
+    }
+    .inspried-img{
+        height:  500px;;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:480px){
+    .product-img{
+        /* height: auto; */
+    }
+}
