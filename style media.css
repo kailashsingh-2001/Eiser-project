@@ -8,18 +8,19 @@
         width: 300px;
     }
    
-
-
-
-
-    /* featured product */
+   /* featured product */
     .feature-card-col{
         flex-wrap:wrap;
     };
 
+
     /* offer area */
     .offer-area{
-        background-image: none;
+        
+
+
+
+
     }
     /* new product */
     .collection-cont{
@@ -67,8 +68,8 @@
         width: 500px;
         /* height: 600px; */
     }
-    .product-img{
-        height:  600px;;
+    .productfe-img{
+        height:  600px;
     }
 
     /* new product */

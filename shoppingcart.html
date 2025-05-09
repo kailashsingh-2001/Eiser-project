@@ -3,343 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eiser contact</title>
-    <link rel="stylesheet" href="nav&footer.css">
-    <link rel="stylesheet" href="nav&footermedia.css">
+    <title>shop cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="navfooter.css">
+    <link rel="stylesheet" href="navfootermedia.css">
+    <link rel="stylesheet" href="shoppingcart.css">
+
 </head>
 <body>
-    <style>
-          *{
-           margin: 0px;
-           padding: 0px;
-           box-sizing: border-box;
-        }
-        .box1{
-            /* border: 1px solid black; */
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            background: #f6f6f6;
-        }
-        .box1A{
-            /* border: 1px solid black; */
-            width: 70%;
-            display: flex;
-            /* justify-content: space-between; */
-            
-            
-        }
-        .box1Aa{
-            /* border: 1px solid black; */
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .box1Ac{
-            /* border: 1px solid black; */
-            width: 50%;
-            padding: 70px;
-        }   
-        .box1Ab{
-            /* border: 1px solid black; */
-            width: 20%;
-            display: flex;
-            align-items: center;
-        }
-        .box2{
-            /* border: 1px solid black; */
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-        }
-        .box2A{
-            width: 70%;
-            /* border: 1px solid black; */
-            border-bottom: 1px solid gray;
-            padding-top: 60px;
-            display: flex;
-            align-items: end;
-        }
-        #p1{
-            margin-left: 20px;
-        }
-        #p2{
-            margin-left: 500px;
-        }
-        #p3{
-            margin-left: 120px;
-        }
-        #p4{
-            margin-left: 70px;
-        }
-        .box3{
-            /* border: 1px solid black; */
-            width: 100vw;
-            display: flex;
-        }
-        .box3A{
-            /* border: 1px solid rgb(32, 18, 219); */
-            width: 15%;
-        
-        }
-         .box3B{
-            /* border: 1px solid green; */
-            width: 70%;
-        }
-        .box3Ba{
-            /* border: 1px solid grey; */
-            border-bottom: 1px solid grey;
-            width: 100%;
-            display: flex;
-        }
-         .box3Ba1{
-            /* border: 1px solid black; */
-            width:20%; 
-            padding: 10px;
-        }
-          .box3Ba2{
-            /* border: 1px solid black; */
-            width:40%; 
-            display: flex;
-            align-items: center;
-        }
-          .box3Ba3{
-            /* border: 1px solid black; */
-            width:10%; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-          .box3Ba4{
-            /* border: 1px solid black; */
-            width:20%; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-          .box3Ba5{
-            /* border: 1px solid black; */
-            width:10%; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .box4{
-            /* border: 1px solid black; */
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-        }
-        .box4A{
-            /* border: 1px solid black; */
-            width: 70%;
-            display: flex;
-            border-bottom: 1px solid grey;
-        }
-        .box4Aa{
-            /* border: 1px solid black; */
-            width: 50%;
-        }
-        .box4Ab{
-            /* border: 1px solid black; */
-            width: 50%;
-        }
-        .box4A button{
-            padding: 7px;
-            /* margin-left: 10px; */
-            margin: 10px;
-            border-color: gray;
-        }
-        .box4A input{
-            padding: 5px;
-        }
-        .box5{
-            /* border: 1px solid black; */
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-        }
-        .box5A{
-            width: 70%;
-            /* border: 1px solid black; */
-            display: flex;
-            justify-content: end;
-            border-bottom: 1px solid grey;
-        }
-        .box5Aa{
-            /* border: 1px solid black; */
-            width: 30%;
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-        }
-        .box5Aa p{
-            padding: 5px;
-        }
-        .box6{
-            width: 100vw;
-            /* border: 1px solid black; */
-            display:  flex;
-            justify-content: center;
-        }
-        .box6A{
-            width: 70%;
-            /* border: 1px solid black; */
-            display:  flex;
-            justify-content: end;
-            border-bottom: 1px solid grey;
-        }
-        .box6Aa{
-            width: 30%;
-            /* border: 1px solid black; */
-            display:  flex;
-            justify-content: space-between;
-        }
-        .Rate{
-            line-height: 30px;
-            display: flex;
-            flex-direction: column;
-        }
-        .Rate button{
-            padding: 4px;
-            margin-top: 15px;
-            margin-bottom: 7px;
-        }
-        .Rate select{
-            padding: 4px;
-            margin-top: 10px;
-        }
-        #inp{
-            padding: 4px;
-            margin-top: 10px;
-        }
-        .box7{
-            /* border: 1px solid black; */
-            width: 100vw;
-            display: flex;
-            justify-content:  center;
-        }
-        .box7A{
-            /* border: 1px solid black; */
-            width: 70%;
-            display: flex;
-            justify-content: end;
-            padding-top: 10px;
-            padding-bottom: 40px;
-            
-        }
-        #btn2{
-            background-color:#71cd14;;
-            color: white;
-            padding: 7px;
-            margin-left:10px;
-            border: none;
-            border-radius: 3px;
-            
-        }
-        
-
-
-
-
-
-
-    </style>
-
-<!-- nav bar -->
-    <header>
-        <!-- uppper nav -->
-        <div class="upper-nav">
-            <div class="upper-nav-content1">
-                <p>PHONE: +01 256 25 235</p>
-                <p>|</p>
-                <p>EMAIL: INFO@EISER.COM</p>
+    
+<!-- header -->
+<div class="header">
+    <div class="header-content1">
+        <p>PHONE: +01 256 25 235</p>
+        <p>|</p>
+        <p>EMAIL: INFO@EISER.COM</p>
+    </div>
+    <div class="header-content2">
+       <p>Gift card</p>
+       <p>|</p>
+       <p>Track order</p>
+       <p>|</p>
+       <p>Contact us</p>
+    </div>
+</div>
+<!-- ended header -->
+<!-- nav bar-->
+<div class="nav-bar">
+    <div class="nav-logo">
+        <div class="logo">
+            <img src="assests/logo (1).png" alt="">
+        </div>
+    </div>
+        <div class="nav-menu">
+            <div class="dropdown">
+                <p class="dropbtn"><a href="index.html">Home</a></p>
             </div>
-            <div class="upper-nav-content2">
-               <p>Gift card</p>
-               <p>|</p>
-               <p>Track order</p>
-               <p>|</p>
-               <p>Contact us</p>
+           
+            <div class="dropdown">
+                <p class="dropbtn">shop</p>
+                <div class="dropdown-content">
+                    <a href="shopcategory.html">Shop category</a>
+                    <a href="productdetail.html">product details</a>
+                    <a href="productcheckout.html">product checkout</a>
+                    <a href="shoppingcart.html">shopping cart</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropbtn">Blog</p>
+                <div class="dropdown-content">
+                    <a href="blog.html">blog</a>
+                    <a href="blogdetails.html">blog details</a>
+                      
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropbtn">pages</p>
+                <div class="dropdown-content">
+                    <a href="tracking.html">Tracking</a>
+                    <a href="tracking.html">Elements</a>
+                     
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <p class="dropbtn"><a href="contact.html">Contact</a></p>
             </div>
         </div>
-
-        <!-- lower nav -->
-        <div class="lower-nav">
-            <div class="nav-logo">
-               <div class="logo">
-                <img src="assests/logo (1).png" alt="">
-               </div>
-            </div>
-            <div class="nav-menu">
-                <div class="dropdown">
-                    <button class="dropbtn"><a href="index.html"> Home</a></button>
-                    
-                </div>
-               
-                    <div class="dropdown">
-                        <button class="dropbtn">shop</button>
-                        <div class="dropdown-content">
-                          <a href="shopcategory.html">Shop category</a>
-                          <a href="productdetail.html">product details</a>
-                          <a href="productcheckout.html">product checkout</a>
-                          <a href="shoppingcart.html">shopping cart</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Blog</button>
-                        <div class="dropdown-content">
-                          <a href="blog.html">blog</a>
-                          <a href="blogdetails.html">blog details</a>
-                          
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">pages</button>
-                        <div class="dropdown-content">
-                          <a href="tracking.html">Tracking</a>
-                          <a href="tracking.html">Elements</a>
-                         
-                        </div>
-                    </div>
-
-                    <div class="dropdown">
-                        <button class="dropbtn"><a href="contact.html">Contact</a></button>
-                        
-                    </div>
-                   
-                   
-            </div>
-            <div class="nav-icon">
-                <div class="nav-inner-icons">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-regular fa-heart"></i>
-
-                </div>
-
+        <div class="nav-icon">
+            <div class="nav-inner-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
-    </header>
- <!-- ender header -->
-  <!-- ended nav bar -->
+        <div class="side-bar">
+            <div class="side-btn">
+                <button class="bar-open-btn" id="opennav">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button class="bar-open-btn1" id="closenav">
+                    <p>x</p>
+                </button>
+            </div>
+        </div>
+        
+</div>
+<!-- open side menu -->
+<div class="opencontainer">
+    <div class="side-menu-cont">
+        <div class="side-menu">
+            <div class="dropdown">
+                <p class="dropbtn">Home</p>
+            </div>
+           
+            <div class="dropdown">
+                <p class="dropbtn">shop</p>
+                <div class="dropdown-content">
+                    <a href="shopcategory.html">Shop category</a>
+                    <a href="productdetail.html">product details</a>
+                    <a href="productcheckout.html">product checkout</a>
+                    <a href="shoppingcart.html">shopping cart</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropbtn">Blog</p>
+                <div class="dropdown-content">
+                    <a href="blog.html">blog</a>
+                    <a href="blogdetails.html">blog details</a>
+                      
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropbtn">pages</p>
+                <div class="dropdown-content">
+                    <a href="tracking.html">Tracking</a>
+                    <a href="tracking.html">Elements</a>
+                     
+                </div>
+            </div>
 
-    <div class="box1">
-        <div class="box1A">
-            <div class="box1Aa">
-                <h1>Cart</h1>
-                <p>Very us move be blessed multiply night</p>
+            <div class="dropdown">
+                <p class="dropbtn"><a href="contact.html">Contact</a></p>
             </div>
-            <div class="box1Ac"></div>
-            <div class="box1Ab">
-                <p style="margin-left: 90px;">Home / Cart</p>
+        </div>
+        <div class="side-bar-icon">
+            <div class="side-inner-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
             </div>
+        </div>
+            
         </div>
     </div>
 
-    <div class="box2">
+</div>
+
+
+
+         
+<!-- ended nav bar -->
+ <!-- cart banner -->
+    
+
+    <div class="cart-banner-cont">
+        <div class="banner-inner-cont">
+            <div class="banner-heading">
+                <h1>Cart</h1>
+                <p>Very us move be blessed multiply night</p>
+            </div>
+            
+            <div class="banner-content">
+                <p>Home / Cart</p>
+            </div>
+        </div>
+    </div>
+    <!-- ended cart banner -->
+     <!-- cart product started -->
+
+    <div class="cart-product">
         <div class="box2A">
             <p id="p1">Product</p>
             <p id="p2">Price</p>
@@ -352,7 +177,7 @@
         <div class="box3A"></div>
         <div class="box3B">
             <div class="box3Ba">
-                <div class="box3Ba1"><img src="cart-1.jpg" alt=""></div>
+                <div class="box3Ba1"><img src="https://themewagon.github.io/eiser/img/product/single-product/cart-1.jpg" alt=""></div>
                 <div class="box3Ba2"><p>
 Minimalistic shop for multipurpose use</p></div>
                 <div class="box3Ba3"><p>$360.00</p></div>
@@ -360,15 +185,22 @@ Minimalistic shop for multipurpose use</p></div>
                 <div class="box3Ba5"><p>$720.00</p></div>
             </div>
             <div class="box3Ba">
-               <div class="box3Ba1"><img src="cart-1.jpg" alt=""></div>
-                <div class="box3Ba2"><p>
-Minimalistic shop for multipurpose use</p></div>
-                <div class="box3Ba3"><p>$360.00</p></div>
+                <div class="box3Ba1">
+                  <img src="https://themewagon.github.io/eiser/img/product/single-product/cart-1.jpg" alt="">
+                </div>
+                <div class="box3Ba2">
+                    <p>Minimalistic shop for multipurpose use</p>
+                </div>
+                <div class="box3Ba3">
+                    <p>$360.00</p>
+                </div>
                 <div class="box3Ba4">2</div>
-                <div class="box3Ba5"><p>$720.00</p></div>
+                <div class="box3Ba5">
+                    <p>$720.00</p>
+                </div>
             </div>
             <div class="box3Ba">
-                <div class="box3Ba1"><img src="cart-1.jpg" alt=""></div>
+                <div class="box3Ba1"><img src="https://themewagon.github.io/eiser/img/product/single-product/cart-1.jpg" alt=""></div>
                 <div class="box3Ba2"><p>
 Minimalistic shop for multipurpose use</p></div>
                 <div class="box3Ba3"><p>$360.00</p></div>
@@ -433,9 +265,7 @@ Minimalistic shop for multipurpose use</p></div>
             <button id="btn2">PROCED TO CHECKOUT</button>
         </div>
     </div>
-
-<!--  footer-->
-
+    <!--================ start footer Area  =================-->
 <footer class="footer">
     <div class="footer-cont">
           <div class="footerrow">
@@ -508,9 +338,11 @@ Minimalistic shop for multipurpose use</p></div>
           </div>
       </div>
   </footer>
-  <!-- footer -->
+  
+  
 
 
 
+<script src="script.js"></script>
 </body>
 </html>

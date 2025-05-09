@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .cart-banner-cont{
+    /* position:relative; */
+    /* top: 60px; */
+     border: 1px solid black;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     background: #f6f6f6;
+     padding: 20px;
+ }
+ .banner-inner-cont{
+     border: 1px solid black;
+     width: 80%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     
+     
+ }
+ .banner-heading{
+     border: 1px solid black;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .banner-content{
+     border: 1px solid black;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: end;
+ }
+ /*  cart banner  */
+
+ /* cart product started */
+ .cart-product{
+     border: 1px solid rgb(224, 12, 12);
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+ }
+ .box2A{
+     width: 70%;
+     border: 1px solid black;
+     border-bottom: 1px solid gray;
+     padding-top: 60px;
+     display: flex;
+     align-items: end;
+ }
+ #p1{
+     margin-left: 20px;
+ }
+ #p2{
+     margin-left: 500px;
+ }
+ #p3{
+     margin-left: 120px;
+ }
+ #p4{
+     margin-left: 70px;
+ }
+ .box3{
+     border: 1px solid black;
+     width: 100%;
+     display: flex;
+ }
+ .box3A{
+     /* border: 1px solid rgb(32, 18, 219); */
+     width: 15%;
+ 
+ }
+  .box3B{
+     /* border: 1px solid green; */
+     width: 70%;
+ }
+ .box3Ba{
+     /* border: 1px solid grey; */
+     border-bottom: 1px solid grey;
+     width: 100%;
+     display: flex;
+ }
+  .box3Ba1{
+     /* border: 1px solid black; */
+     width:20%; 
+     padding: 10px;
+ }
+   .box3Ba2{
+     /* border: 1px solid black; */
+     width:40%; 
+     display: flex;
+     align-items: center;
+ }
+   .box3Ba3{
+     /* border: 1px solid black; */
+     width:10%; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+   .box3Ba4{
+     /* border: 1px solid black; */
+     width:20%; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+   .box3Ba5{
+     /* border: 1px solid black; */
+     width:10%; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .box4{
+     /* border: 1px solid black; */
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+ .box4A{
+     /* border: 1px solid black; */
+     width: 70%;
+     display: flex;
+     border-bottom: 1px solid grey;
+ }
+ .box4Aa{
+     /* border: 1px solid black; */
+     width: 50%;
+ }
+ .box4Ab{
+     /* border: 1px solid black; */
+     width: 50%;
+ }
+ .box4A button{
+     padding: 7px;
+     /* margin-left: 10px; */
+     margin: 10px;
+     border-color: gray;
+ }
+ .box4A input{
+     padding: 5px;
+ }
+ .box5{
+     /* border: 1px solid black; */
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+ }
+ .box5A{
+     width: 70%;
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: end;
+     border-bottom: 1px solid grey;
+ }
+ .box5Aa{
+     /* border: 1px solid black; */
+     width: 30%;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+ }
+ .box5Aa p{
+     padding: 5px;
+ }
+ .box6{
+     width: 100%;
+     /* border: 1px solid black; */
+     display:  flex;
+     justify-content: center;
+ }
+ .box6A{
+     width: 70%;
+     /* border: 1px solid black; */
+     display:  flex;
+     justify-content: end;
+     border-bottom: 1px solid grey;
+ }
+ .box6Aa{
+     width: 30%;
+     /* border: 1px solid black; */
+     display:  flex;
+     justify-content: space-between;
+ }
+ .Rate{
+     line-height: 30px;
+     display: flex;
+     flex-direction: column;
+ }
+ .Rate button{
+     padding: 4px;
+     margin-top: 15px;
+     margin-bottom: 7px;
+ }
+ .Rate select{
+     padding: 4px;
+     margin-top: 10px;
+ }
+ #inp{
+     padding: 4px;
+     margin-top: 10px;
+ }
+ .box7{
+     /* border: 1px solid black; */
+     width: 100%;
+     display: flex;
+     justify-content:  center;
+ }
+ .box7A{
+     /* border: 1px solid black; */
+     width: 70%;
+     display: flex;
+     justify-content: end;
+     padding-top: 10px;
+     padding-bottom: 40px;
+     
+ }
+ #btn2{
+     background-color:#71cd14;;
+     color: white;
+     padding: 7px;
+     margin-left:10px;
+     border: none;
+     border-radius: 3px;
+     
+ }
+ 
+
+
